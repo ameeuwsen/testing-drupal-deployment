@@ -19,6 +19,7 @@ jobs:
         with:
           php_version: "8.0"
           version: 2
+          php_extensions: gd
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
