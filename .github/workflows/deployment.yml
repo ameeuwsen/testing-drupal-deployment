@@ -27,3 +27,4 @@ jobs:
           username: u356063559.shootingkink.com
           password: ${{ secrets.HOSTINGER_PASS }}
           server-dir: xxx/
+          timeout: 30000
