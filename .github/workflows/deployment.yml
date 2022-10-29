@@ -19,5 +19,5 @@ jobs:
         with:
           server: 212.1.211.16
           username: u356063559.shootingkink.com
-          password: ${{ secrets.FTP_PASS }}
+          password: ${{ secrets.HOSTINGER_PASS }}
           server-dir: xxx/
