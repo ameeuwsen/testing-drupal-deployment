@@ -29,5 +29,5 @@ jobs:
           server-dir: xxx/
           timeout: 30000
           exclude: |
-          **/vendor/**
-          **/web/core/**
+            **/vendor/**
+            **/web/core/**
