@@ -28,3 +28,6 @@ jobs:
           password: ${{ secrets.HOSTINGER_PASS }}
           server-dir: xxx/
           timeout: 30000
+          exclude: |
+          **/vendor/**
+          **/web/core/**
